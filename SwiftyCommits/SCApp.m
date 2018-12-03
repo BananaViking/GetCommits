@@ -33,6 +33,7 @@
     
     // loop through each dictionary in the array
     for (NSDictionary *entry in json) {
+        
         // pull interesting data into variables
         NSString *name = entry[@"commit"][@"author"][@"name"];
         NSString *message = entry[@"commit"][@"message"];
