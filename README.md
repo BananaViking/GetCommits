@@ -1,1 +1,1 @@
-# SwiftyCommits
+# GetCommits
